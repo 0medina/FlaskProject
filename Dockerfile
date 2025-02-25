@@ -5,7 +5,7 @@ FROM python:3.12-slim
 WORKDIR /app
 
 #copia de archivod #git clone . nos indica que se copiara todo
-COPY. /app
+COPY . /app
 
 #insatalacion de dependencias
 RUN pip install --no-cache-dir -r requirements.txt
